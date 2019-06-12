@@ -43,10 +43,29 @@
     <Folder Include="src\" />
     <Folder Include="src\assets\" />
     <Folder Include="src\components\" />
+    <Folder Include="src\utils\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="babel.config.js" />
     <Compile Include="src\main.js" />
+    <Compile Include="src\utils\bar.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\utils\bubble-sort.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\utils\insertion-sort.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\utils\merge-sort.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\utils\quick-sort.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="src\utils\selection-sort.js">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
